@@ -1,0 +1,41 @@
+# EXCUTE
+alias subl="sublime"
+alias git=hub
+
+# rails
+alias rails="bin/rails"
+alias rake="bin/rake"
+
+# CHEATSHEET
+alias cheatsheet-react='open "${HOME}/cheatsheet/react.jpg"'
+alias cheatsheet-regex='open "${HOME}/cheatsheet/regex.png"'
+alias cheatsheet-linux='open "${HOME}/cheatsheet/linux.png"'
+
+# GIT
+alias so=stree
+alias gfl='git flow'
+
+# JavaScirpt
+alias ys="yarn start"
+alias yi="yarn install"
+alias ya="yarn add"
+alias yad="yarn add --dev"
+alias yt="yarn test"
+alias yb="yarn build"
+alias yr="yarn run"
+alias yrm="yarn remove"
+alias yv="yarn version"
+
+#--------------
+# react native
+#--------------
+
+# open debug menu
+alias rnd='adb shell input keyevent 82'
+
+# log in terminal
+alias rnl='adb logcat *:S ReactNative:V ReactNativeJS:V'
+
+alias rn-bundle-android='react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output dest/android/index.android.bundle --assets-dest dest/android/assets'
+
+alias rn-bundle-ios='react-native bundle --platform ios --dev false --entry-file index.ios.js --bundle-output dest/ios/index.ios.bundle --assets-dest dest/ios/assets'
